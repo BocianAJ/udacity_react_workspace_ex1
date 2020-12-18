@@ -109,6 +109,12 @@ class App extends Component {
         </header>
         <h2>Favorite Movies</h2>
 		
+		<ul>
+			{profiles.map((profile)=>(
+              <ol>profile</ol>        
+            ))}
+		</ul>
+		
       </div>
     );
   }
